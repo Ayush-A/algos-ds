@@ -33,4 +33,7 @@ def mergesort(arr, first, last):
 
 if __name__ == "__main__":
     mergesort(arr, 0, len(arr) - 1)
+    with open("output.txt", "w") as fileout:
+        for i in arr:
+            fileout.write(f"{i}\n")
     print(arr)
