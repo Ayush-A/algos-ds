@@ -36,4 +36,4 @@ if __name__ == "__main__":
     with open("output.txt", "w") as fileout:
         for i in arr:
             fileout.write(f"{i}\n")
-    print(arr)
+            
