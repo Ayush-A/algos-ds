@@ -1,8 +1,8 @@
-# Saving the contents of a file containing numbers in a list
+# Saving the contents of a file containing numbers, in a list
 with open("text.txt", "r") as arrayfile:
     arr = list(map(int, arrayfile.read().split()))
 
-# Merge subroutine to merge the two arrays
+# Merge subroutine to merge two sub-arrays
 def merge(arr, first, mid, last):
     temparr = []
     i = first
@@ -23,7 +23,7 @@ def merge(arr, first, mid, last):
     for i in range(last-first+1):
         arr[i + first] = temparr[i]
 
-# This function implements Divide and Conquer
+# This function implements Divide and Conquer for Merge Sort
 def mergesort(arr, first, last):
     if first < last:
         mid = (first + last) // 2
@@ -33,6 +33,8 @@ def mergesort(arr, first, last):
 
 if __name__ == "__main__":
     mergesort(arr, 0, len(arr) - 1)
+
+    # Write the output to a file
     with open("output.txt", "w") as fileout:
         for i in arr:
             fileout.write(f"{i}\n")

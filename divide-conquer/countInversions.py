@@ -1,4 +1,4 @@
-# Saving the contents of a file containing numbers in a list
+# Saving the contents of a file containing numbers, in a list
 with open("text.txt", "r") as arrayfile:
     arrfile = list(map(int, arrayfile.read().split()))
 
@@ -26,7 +26,7 @@ def splitinv(arr, first, mid, last):
         arr[i + first] = tmpar[i]
     return inversions
 
-# Implement Divide and Conquer to merge and sort the lists
+# Implement Divide and Conquer to merge and sort the lists whilst calculating inversions 
 def sortmerge(arr, first, last):
     x = 0
     if first < last:
@@ -35,5 +35,6 @@ def sortmerge(arr, first, last):
         x += sortmerge(arr, mid + 1, last)
         x += splitinv(arr, first, mid, last)
     return x
+
 if __name__ == "__main__":
     print(sortmerge(arrfile, 0, len(arrfile) - 1))

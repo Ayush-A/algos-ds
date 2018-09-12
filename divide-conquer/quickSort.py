@@ -1,10 +1,10 @@
 from random import randint
 
-# Saving the contents of a file containing numbers in a list
+# Saving the contents of a file containing numbers, in a list
 with open("text.txt", "r") as arrayfile:
     arr = list(map(int, arrayfile.read().split()))
 
-# Implementing randomized quick sort
+# Implementing randomized quick sort algorithm
 # Subroutine to partition the array on the basis of pivot element
 def partition(arr, left, right):
 
