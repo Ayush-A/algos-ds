@@ -15,3 +15,6 @@ Implementation of some Algorithms and Data Structures
 
 ## Linked List
 - [Reverse Linked List](https://github.com/ayushdata/algos-ds/blob/master/linkedlist/reversell.c)
+
+## Graphs
+- [MultiStage Graph (Shortest Path)](https://github.com/ayushdata/algos-ds/blob/master/graphs/multistage.c)
