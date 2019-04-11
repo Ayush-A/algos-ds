@@ -1,7 +1,7 @@
 /* Program to find the shortest path from source to destination in a MultiStage Graph
 
 Assume that the nodes are labelled from 0 to n - 1, where we consider 0 as the source 
-while n-1 as the destination. Implementation of which is given below: 
+while n-1 as the destination. Implementation of which using Dynamic Programming is given below: 
 */
 
 #include <stdio.h>

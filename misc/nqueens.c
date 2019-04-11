@@ -1,7 +1,7 @@
 /* Program to give one solution of N Queen Problem using Backtracking.
 
    Just change the value of n in #define to the dimension of chessboard, 
-   and to program will output one of the feasible solution of the problem.*/
+   and the program will output one of the feasible solution of the problem.*/
 
 #include <stdio.h>
 #define n 16
