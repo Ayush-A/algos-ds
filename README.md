@@ -10,7 +10,7 @@ Implementation of some Algorithms and Data Structures
 ## Trees
 - [Boundary Traversal](https://github.com/ayushdata/algos-ds/blob/master/trees/boundaryTree.c)
 - [Level Order Traversal](https://github.com/ayushdata/algos-ds/blob/master/trees/levelorder.c)
-- [Zig-Zag Order Traversal](https://github.com/ayushdata/algos-ds/blob/master/trees/zigzag.c))
+- [Zig-Zag Order Traversal](https://github.com/ayushdata/algos-ds/blob/master/trees/zigzag.c)
 - [In/Pre/Post Order Traversal](https://github.com/ayushdata/algos-ds/blob/master/trees/in_pre_post.c)
 
 ## Linked List
@@ -18,3 +18,6 @@ Implementation of some Algorithms and Data Structures
 
 ## Graphs
 - [MultiStage Graph (Shortest Path)](https://github.com/ayushdata/algos-ds/blob/master/graphs/multistage.c)
+
+## Misc
+- [N Queen Problem (Backtracking)](https://github.com/ayushdata/algos-ds/blob/master/misc/nqueens.c)
