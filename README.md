@@ -20,4 +20,5 @@ Implementation of some Algorithms and Data Structures
 - [MultiStage Graph (Shortest Path)](https://github.com/ayushdata/algos-ds/blob/master/graphs/multistage.c)
 
 ## Misc
+- [Tower of Hanoi](https://github.com/ayushdata/algos-ds/blob/master/misc/towerofhanoi.c)
 - [N Queen Problem (Backtracking)](https://github.com/ayushdata/algos-ds/blob/master/misc/nqueens.c)
