@@ -24,4 +24,5 @@ Implementation of some Algorithms and Data Structures
 - [N Queen Problem (Backtracking)](https://github.com/ayushdata/algos-ds/blob/master/misc/nqueens.c)
 
 ## General Problem Solving
-- [Find first missing positive integer](https://github.com/ayushdata/algos-ds/blob/master/probSolve/first_missing_positive.c)
+- [Find first missing positive integer in an array](https://github.com/ayushdata/algos-ds/blob/master/probSolve/first_missing_positive.c)
+- [Look and Say Pattern](https://github.com/ayushdata/algos-ds/blob/master/probSolve/look_and_say.c)
