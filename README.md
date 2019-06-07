@@ -15,6 +15,7 @@ Implementation of some Algorithms and Data Structures
 
 ## Linked List
 - [Reverse Linked List](https://github.com/ayushdata/algos-ds/blob/master/linkedlist/reversell.c)
+- [Remove Duplicates O(n^2)](https://github.com/ayushdata/algos-ds/blob/master/linkedlist/rm_duplicates.cpp)
 
 ## Graphs
 - [MultiStage Graph (Shortest Path)](https://github.com/ayushdata/algos-ds/blob/master/graphs/multistage.c)
